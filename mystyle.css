@@ -1,0 +1,340 @@
+
+ /*Menu settings */
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Arial', serif;
+}
+
+.nav {
+
+
+	background-color: #66bc30;
+	color: #ffffff;
+	list-style: none;
+	text-align: center;
+	padding: 20px 0 20px 0;
+}
+
+.nav > li {
+	display: inline-block;
+	padding: 0 25px 0 25px;
+}
+
+.nav > li > a{
+	text-decoration: none;
+	color: #ffffff;
+}
+
+.nav >li > a:hover {
+	color: c1c1c1;
+	
+}
+
+
+/*Logo Settings*/
+
+ul.logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+/*footer settings*/
+
+
+
+
+.footer {
+    position: fixed;
+    height: 50px;
+    background-color: #66bc30;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    margin-bottom: 0px;
+    text-align: center;
+    color: white;
+}
+
+
+/*Instellingen Prijslijst*/
+
+* {
+    box-sizing: border-box;
+}
+
+/* Maken van kolommen */
+.columns {
+    float: left;
+    width: 33.3%;
+    padding: 8px;
+
+}
+
+/* stijlen van de lijst */
+.price {
+    list-style-type: none;
+    border: 1px solid #eee;
+    margin: 0;
+    padding: 0;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+}
+
+/* schaduw toevoegen aan hover */
+.price:hover {
+    box-shadow: 0 8px 12px 0 rgba(0,0,0,0.2)
+}
+
+/*  header prijslijst */
+.price .header {
+    background-color: #111;
+    color: white;
+    font-size: 25px;
+}
+
+
+
+.price li {
+    border-bottom: 1px solid #eee;
+    padding: 20px;
+    text-align: center;
+}
+
+
+.price .grey {
+    background-color: #eee;
+    font-size: 20px;
+}
+
+.button {
+    background-color: #66bc30;
+    border: none;
+    color: white;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+
+/*contactform*/
+
+
+h1
+{
+font-family: 'Oswald', sans-serif;
+font-size: 30px;
+text-transform: uppercase;
+color: #66bc30;
+text-align: center;
+}
+
+
+/* centreren van pagina*/
+.body {
+    display:block;
+    margin:0 auto;
+    width:576px;
+    font-family: 'Muli', sans-serif;
+    font-size: 16px;
+    color: #999;
+}
+
+
+
+label 
+{
+    display:block;
+    margin-top:20px;
+    letter-spacing:2px;
+}
+
+/* centreren van vorm */
+form 
+{
+    margin:0 auto;
+    width:459px;
+}
+
+/* Stylen van tekst */
+input, textarea, file {
+    width:439px;
+    height:27px;
+    background-color:#efefef;
+    border-radius:5px;
+    -moz-border-radius:5px;
+    -webkit-border-radius:5px;
+    border:1px solid #dedede;
+    padding:10px;
+    margin-top:3px;
+    font-size:0.9em;
+    color:#3a3a3a;
+}
+
+    input:focus, textarea:focus {
+        border:1px solid #97d6eb;
+    }
+
+/* Stijl van tekstbokst  */    
+textarea 
+{
+    height:213px;
+    background-color: #efefef;
+}
+
+
+/* Stijlen van submit button */
+#submit {
+    
+    width:127px;
+    height:48px;
+    text-align: center;
+    border:none;
+    margin-top:20px;
+    cursor:pointer;
+}
+
+/* Styles the submit hover */   
+#submit:hover {
+    color:#fff;
+    background-color: #216182;
+    opacity:0.9;
+}
+
+
+/* timeline*/
+
+}
+body {
+  background: #ffffff;
+}
+section#timeline {
+  width: 80%;
+  margin: 40px auto;
+  position: relative;
+}
+section#timeline:before {
+  content: '';
+  display: block;
+  position: absolute;
+  left: 50%;
+  top: 0;
+  margin: 0 0 0 -1px;
+  width: 2px;
+  height: 100%;
+  background: rgba(255,255,255,0.2);
+}
+section#timeline article {
+  width: 100%;
+  margin: 0 0 20px 0;
+  position: relative;
+}
+section#timeline article:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+section#timeline article div.inner {
+  width: 40%;
+  float: left;
+  margin: 5px 0 0 0;
+  border-radius: 6px;
+}
+section#timeline article div.inner span.date {
+  display: block;
+  width: 60px;
+  height: 50px;
+  padding: 5px 0;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  margin: 0 0 0 -32px;
+  border-radius: 100%;
+  font-size: 12px;
+  font-weight: 900;
+  text-transform: uppercase;
+  background: #595959;
+  color: rgba(255,255,255,0.5);
+  border: 2px solid rgba(255,255,255,0.2);
+  box-shadow: 0 0 0 7px #595959;
+}
+section#timeline article div.inner span.date span {
+  display: block;
+  text-align: center;
+}
+section#timeline article div.inner span.date span.day {
+  font-size: 10px;
+}
+section#timeline article div.inner span.date span.month {
+  font-size: 18px;
+}
+section#timeline article div.inner span.date span.year {
+  font-size: 10px;
+}
+section#timeline article div.inner h2 {
+  padding: 15px;
+  margin: 0;
+  color: #fff;
+  font-size: 20px;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+  border-radius: 6px 6px 0 0;
+  position: relative;
+}
+section#timeline article div.inner h2:after {
+  content: '';
+  position: absolute;
+  top: 20px;
+  right: -5px;
+    width: 10px; 
+      height: 10px;
+  -webkit-transform: rotate(-45deg);
+}
+section#timeline article div.inner p {
+  padding: 15px;
+  margin: 0;
+  font-size: 14px;
+  background: #fff;
+  color: #656565;
+  border-radius: 0 0 6px 6px;
+}
+section#timeline article:nth-child(2n+2) div.inner {
+  float: right;
+}
+section#timeline article:nth-child(2n+2) div.inner h2:after {
+  left: -5px;
+}
+section#timeline article:nth-child(1) div.inner h2 {
+  background: #66bc30;
+}
+section#timeline article:nth-child(1) div.inner h2:after {
+  background: #66bc30;
+}
+section#timeline article:nth-child(2) div.inner h2 {
+  background: #66bc30;
+}
+section#timeline article:nth-child(2) div.inner h2:after {
+  background: #66bc30;
+}
+section#timeline article:nth-child(3) div.inner h2 {
+  background: #66bc30;
+}
+section#timeline article:nth-child(3) div.inner h2:after {
+  background: #66bc30;
+}
+section#timeline article:nth-child(4) div.inner h2 {
+  background: #66bc30;
+}
+section#timeline article:nth-child(4) div.inner h2:after {
+  background: #66bc30;
+}
+section#timeline article:nth-child(5) div.inner h2 {
+  background: #66bc30;
+}
+section#timeline article:nth-child(5) div.inner h2:after {
+  background: #66bc30;
+
